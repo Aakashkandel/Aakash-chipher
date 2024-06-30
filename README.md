@@ -38,7 +38,7 @@ Encoding a Message
 ```bash
 const { encodeMessage } = require('aakashchipher');
 
-const data = "Hello, Aakash Kandel. How are you today?";
+const data = "hello aakash";
 const secretKey = "Secret123";
 
 try {
