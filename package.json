@@ -1,6 +1,6 @@
 {
   "name": "aakashchipher",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package helps to encode or decode text with the help of secret key",
   "main": "index.js",
   "scripts": {
