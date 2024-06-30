@@ -36,7 +36,7 @@ npm install aakashcipher
 Usage
 Encoding a Message
 ```bash
-const { encodeMessage } = require('aakashcipher');
+const { encodeMessage } = require('aakashchipher');
 
 const data = "Hello, Aakash Kandel. How are you today?";
 const secretKey = "Secret123";
@@ -52,7 +52,7 @@ try {
 Decoding a Message
 ```bash
 
-const { decodeMessage } = require('aakashcipher');
+const { decodeMessage } = require('aakashchipher');
 
 const encodedData = "your_encoded_message_here";
 const secretKey = "Secret123";
@@ -90,5 +90,7 @@ License
 This project is licensed under the ISC License.
 
 Links
+
+````bash
 GitHub Repository
 Issue Tracker
