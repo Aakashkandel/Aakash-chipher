@@ -38,8 +38,8 @@ Encoding a Message
 ```bash
 const { encodeMessage } = require('aakashcipher');
 
-const data = "hey lalit k cha khabar";
-const secretKey = "evefdsafds";
+const data = "Hello, Aakash Kandel. How are you today?";
+const secretKey = "Secret123";
 
 try {
     const encodedData = encodeMessage(data, secretKey);
@@ -55,7 +55,7 @@ Decoding a Message
 const { decodeMessage } = require('aakashcipher');
 
 const encodedData = "your_encoded_message_here";
-const secretKey = "evefdsafds";
+const secretKey = "Secret123";
 
 try {
     const decodedData = decodeMessage(encodedData, secretKey);
