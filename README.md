@@ -31,12 +31,11 @@ Install the package using npm:
 
 ```bash
 npm install aakashcipher
-
-
+```
 
 Usage
 Encoding a Message
-
+```bash
 const { encodeMessage } = require('aakashcipher');
 
 const data = "hey lalit k cha khabar";
@@ -49,7 +48,9 @@ try {
     console.error(error.message);
 }
 
+```
 Decoding a Message
+```bash
 
 const { decodeMessage } = require('aakashcipher');
 
@@ -63,20 +64,21 @@ try {
     console.error(error.message);
 }
 
+```
 
 API
 encodeMessage
-
+```bash
 encodeMessage(data, secretKey)
-
+```
 data: string - The message to encode.
 secretKey: string - The secret key used for encoding.
 Returns: string - The encoded message.
 
 decodeMessage
-
+```bash
 decodeMessage(encodedData, secretKey)
-
+```
 encodedData: string - The message to decode.
 secretKey: string - The secret key used for decoding.
 Returns: string - The decoded message.
@@ -90,18 +92,3 @@ This project is licensed under the ISC License.
 Links
 GitHub Repository
 Issue Tracker
-
-
-### Explanation of the `README.md` File
-
-- **Title and Badges**: The title and badges provide a quick overview of the package version, build status, and download statistics.
-- **Table of Contents**: This makes it easy for users to navigate the document.
-- **Installation Instructions**: Clear and concise instructions on how to install the package.
-- **Usage Examples**: Examples for both encoding and decoding messages, with error handling.
-- **API Documentation**: Detailed description of the API functions, including parameters and return values.
-- **Source Code**: The full `index.js` code included for reference.
-- **Contributing Section**: Guidelines for contributing to the project.
-- **License**: Information about the license.
-- **Links**: Direct links to the GitHub repository and issue tracker.
-
-This `README.md` file should be placed in the root directory of your project. When you publish your package to npm, this file will be displayed on the npm package page, providing users with all the necessary information in a professional format. Make sure to replace `username` with your actual GitHub username and update any other placeholders accordingly.
