@@ -1,0 +1,25 @@
+{
+  "name": "aakashchipher",
+  "version": "1.0.0",
+  "description": "This package helps to encode or decode text with the help of secret key",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aakashkandel/Aakash-chipher.git"
+  },
+  "keywords": [
+    "encode",
+    "decode",
+    "chiphertext",
+    "textencoder"
+  ],
+  "author": "Aakash Kandel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aakashkandel/Aakash-chipher/issues"
+  },
+  "homepage": "https://github.com/Aakashkandel/Aakash-chipher#readme"
+}
